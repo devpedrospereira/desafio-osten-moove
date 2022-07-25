@@ -1,9 +1,11 @@
 import "reflect-metadata";
 import "express-async-errors";
+import "dotenv/config";
 import express, { NextFunction, Request, Response } from "express";
 import { routes } from "../src/routes";
 import { AppError } from "./error/AppError";
 import cors from "cors";
+
 const app = express();
 
 app.use(cors());
@@ -26,7 +28,7 @@ app.use(
 );
 
 app.get("/", (req: Request, res: Response) => {
-    res.send("Hello!");
+    res.json({ Hello: "Welcome to Osten Moove!" });
 });
 
 app.listen(process.env.PORT || 3333, () => console.log("Server is running!"));

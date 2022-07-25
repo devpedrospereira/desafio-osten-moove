@@ -107,7 +107,6 @@ const Home: NextPage<{ data: Company[] }> = ({ data }) => {
             return;
         }
     }
-    console.log(process.env.URL);
 
     return (
         <>

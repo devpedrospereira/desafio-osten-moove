@@ -1,4 +1,5 @@
 import { Company } from "../entities/Company";
+import { server } from "../../config";
 
 interface IResponse {}
 
@@ -28,23 +29,22 @@ interface ICreateCompany {
     federatedUnit: string;
 }
 
-// const baseURL = process.env.URL;
-const baseURL = "http://localhost:3333/company";
+const baseURL = process.env.URL;
 
 async function listAllCompanies(): Promise<Company[]> {
-    const res = await fetch(baseURL + "/list");
+    const res = await fetch(`${server}/company/list`);
     const data = await res.json();
     return data;
 }
 
 async function findCompanyById(id: number): Promise<Company> {
-    const res = await fetch(baseURL + `?id=${id}`);
+    const res = await fetch(`${server}/company?id=${id}`);
     const data = await res.json();
     return data;
 }
 
 async function updateCompany(id: string, data: IUpdateCompany): Promise<any> {
-    const result = await fetch(baseURL + `/update?id=${id}`, {
+    const result = await fetch(`${server}/company/update?id=${id}`, {
         method: "PATCH",
         body: JSON.stringify(data),
         headers: {
@@ -55,14 +55,14 @@ async function updateCompany(id: string, data: IUpdateCompany): Promise<any> {
 }
 
 async function deleteCompany(id: string): Promise<any> {
-    const result = await fetch(baseURL + `/delete?id=${id}`, {
+    const result = await fetch(`${server}/company/delete?id=${id}`, {
         method: "DELETE",
     });
     return result;
 }
 
 async function createCompany(data: ICreateCompany): Promise<any> {
-    const result = await fetch(baseURL, {
+    const result = await fetch(`${server}/company`, {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -75,7 +75,9 @@ async function createCompany(data: ICreateCompany): Promise<any> {
 async function searchCompanyByFantasyName(
     fantasyName: string
 ): Promise<Company[]> {
-    const res = await fetch(baseURL + `/search?fantasyName=${fantasyName}`);
+    const res = await fetch(
+        `${server}/company/search?fantasyName=${fantasyName}`
+    );
     const data = await res.json();
     return data;
 }
