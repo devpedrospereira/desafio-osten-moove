@@ -6,6 +6,7 @@
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
 - [Preview](#-Preview)
+- [Video Explicativo](#-Video-explicando-detalhadamente-o-projeto)
 
 ---
 
@@ -56,10 +57,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ```bash
 # Primeiramente, clone os repositórios
 
-git clone https://gitlab.com/devpedrospereira/desafio-ostem-moove.git
+git clone [https://gitlab.com/devpedrospereira/desafio-ostem-moove.git](https://github.com/devpedrospereira/desafio-osten-moove.git)
 
 # Entrar no diretório
-cd desafio-ostem-moove-main
+cd desafio-ostem-moove
 
 # Dentro do repositórios clonado, existe dois diretórios. Vamos começar com o Back-end:
 
@@ -97,6 +98,8 @@ npm run dev
 `http://localhost:3000/`
 
 ```
+
+## Video explicando detalhadamente o projeto
 
 ---
 
