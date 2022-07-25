@@ -1,0 +1,45 @@
+[
+    {
+        "id":1232133121231,
+        "cnpj":"60.765.823/0001-30",
+        "name":"HOSPITAL ISRAELITA ALBERTEINSTEIN",
+        "fantasyName": "Hospital Israelita Alberteinstein",
+        "phone":"(11) 2151-1233",
+        "street":"Avenida Albert Einstein", 
+        "number":"627",
+        "distrit":"Morumbi",
+        "city":"Sao Paulo",
+        "uf": "SP"
+        
+    },
+    {
+        "id":1232165431231,
+        "name":"BRASANITAS HOSPITALAR - HIGIENIZACAO E CONSERVACAO DE CONSERVACAO DECONSERVACAO DE CONSERVACAO DE CONSERVACAO DE",
+        "cnpj":"60.701.190/0001-04"
+    },
+    {
+        "id":1232138671231,
+        "name":"LSI ADMINISTRACAO E SERVICOS S.A",
+        "cnpj":"02.916.265/0001-60"
+    },
+    {
+        "id":123213781231,
+        "name":"ULTRAPAR PARTICIPACOES S/A",
+        "cnpj":"60.765.823/0001-30"
+    },
+    {
+        "id":123213108231,
+        "name":"G4S INTERATIVA SERVICE LTDA",
+        "cnpj":"02.812.740/0001-58"
+    },
+    {
+        "id":123213231231,
+        "name":"HOSPITAL ISRAELITA ALBERTEINSTEIN",
+        "cnpj":"60.701.190/0001-04"
+    },
+    {
+        "id":123217731231,
+        "name":"HOSPITAL ISRAELITA ALBERTEINSTEIN",
+        "cnpj":"02.916.265/0001-60"
+    }
+]
