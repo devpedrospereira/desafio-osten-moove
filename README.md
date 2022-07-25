@@ -6,6 +6,7 @@
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
 - [Preview](#-Preview)
+- [Video Explicativo] (#-Video-explicando-detalhadamente-o-projeto)
 
 ---
 
@@ -97,6 +98,8 @@ npm run dev
 `http://localhost:3000/`
 
 ```
+
+## Video explicando detalhadamente o projeto
 
 ---
 
