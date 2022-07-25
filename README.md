@@ -18,6 +18,13 @@
 
 ---
 
+# Acesse o projeto
+- [https://osten-moove-frontend.vercel.app/](https://osten-moove-frontend.vercel.app/)
+
+## Acesso à API
+- [https://osten-moove-backend.herokuapp.com/company/list](https://osten-moove-backend.herokuapp.com/company/list)
+
+
 ## 📖 Sobre 
 
 Este é um projeto desenvolvido para demonstrar minhas habilidades como desenvolvedor de software.
@@ -57,17 +64,17 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ```bash
 # Primeiramente, clone os repositórios
 
-git clone [https://gitlab.com/devpedrospereira/desafio-ostem-moove.git](https://github.com/devpedrospereira/desafio-osten-moove.git)
+git clone https://github.com/devpedrospereira/desafio-osten-moove.git
 
 # Entrar no diretório
-cd desafio-ostem-moove
+cd desafio-ostem-moove/
 
 # Dentro do repositórios clonado, existe dois diretórios. Vamos começar com o Back-end:
 
 #Back-end
 
 # Entrar no diretório
-cd osten-moove-backend
+cd osten-moove-backend/
 
 # Baixar as dependências
 npm i
@@ -85,7 +92,7 @@ npm run dev
 # Retorne para a raiz de nosso projeto (./desafio-ostem-moove-main)
 
 # Entrar no diretório
-cd osten-moove-frontend
+cd osten-moove-frontend/
 
 # Baixar as dependências
 npm i
